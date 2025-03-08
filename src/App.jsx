@@ -1,6 +1,6 @@
 import React from 'react'
 import LandingPage from './Suby/pages/LandingPage'
-import {Routes, Route} from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import ProductMenu from './Suby/components/ProductMenu'
 
@@ -8,8 +8,8 @@ const App = () => {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<LandingPage/>}/>
-        <Route path="/products/:firmId/:firmName" element={<ProductMenu/>}/>
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/products/:firmId/:firmName" element={<ProductMenu />} />
       </Routes>
     </div>
   )

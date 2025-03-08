@@ -8,12 +8,12 @@ import ProductMenu from '../components/ProductMenu'
 const LandingPage = () => {
   return (
     <div>
-        <TopBar/>
-        <div className="landingSection">
-        <ItemsDisplay/>
-        <Chains/>
-        <FirmCollections/>
-        </div>
+      <TopBar />
+      <div className="landingSection">
+        <ItemsDisplay />
+        <Chains />
+        <FirmCollections />
+      </div>
     </div>
   )
 }
